@@ -5,19 +5,15 @@
   --ocean-color: #404bbf;
   --primary-bg-color: #ffffff;
   --footer-color: #e7e9fc;
+  --background-3section: #f4f4fd;
 }
 
 body {
   background-color: var(--primary-bg-color);
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 16px;
-}
-.header-nav {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1152px;
 }
 
 .nav-list .nav-link :hover,
@@ -25,7 +21,7 @@ body {
   color: var(--accent-color);
 }
 .nav-list .nav-link {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
 }
 
 .nav-item {
@@ -67,7 +63,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 
 .contacts {
@@ -76,23 +72,21 @@ ul {
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--title-text-color);
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #404bbf;
+  color: var(--ocean-color);
 }
 
 .hero {
   text-align: center;
+  background-color: var(--primary-text-color);
 }
 .hero-title {
-  margin-top: 0;
-  margin-bottom: 48px;
   color: var(--primary-bg-color);
   background-color: var(--primary-text-color);
   font-weight: 700;
@@ -111,9 +105,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  padding: 16px 32px;
-  border-radius: 4px;
-  padding: 16px 32px;
   cursor: pointer;
 }
 .button:focus {
@@ -124,7 +115,6 @@ ul {
 }
 
 .first-button {
-  border: 1px solid transparent;
   color: var(--primary-bg-color);
   background: var(--accent-color);
 }
@@ -133,26 +123,40 @@ ul {
   background-color: var(--ocean-color);
 }
 .section-title {
-  margin-top: 0;
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   text-align: center;
+}
+
+.team {
+  background-color: var(--background-3section);
 }
 
 .feature-list .title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
 }
 
 .feature-list .text {
   font-size: 16px;
   line-height: 1.5;
+  color: var(--title-text-color);
+}
+.images {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
+.list-employees {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .page-footer {
   background-color: #2e2f42;
 }
