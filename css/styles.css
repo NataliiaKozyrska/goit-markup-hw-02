@@ -20,16 +20,16 @@ body {
 .nav-list .nav-link :focus {
   color: var(--accent-color);
 }
-.nav-list .nav-link {
+/* .nav-list .nav-link {
   color: var(--primary-text-color);
-}
+} */
 
-.nav-item {
+/* .nav-link {
   color: var(--primary-text-color);
   text-decoration: none;
   font-style: normal;
   list-style: none;
-}
+} */
 ul,
 ol {
   list-style-type: none;
@@ -88,11 +88,12 @@ ul {
 }
 .hero-title {
   color: var(--primary-bg-color);
-  background-color: var(--primary-text-color);
+  /* background-color: var(--primary-text-color); */
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.7;
+  line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 .button {
   display: inline-block;
@@ -106,6 +107,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 .button:focus {
   color: #ffffff;
@@ -122,12 +124,19 @@ ul {
 .button:focus {
   background-color: var(--ocean-color);
 }
-.section-title {
-  color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
+
+.list-employees {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.list-team {
+  background-color: var(--primary-bg-color);
+}
+.text {
+  color: var(--title-text-color);
+  letter-spacing: 0.02em;
 }
 
 .team {
@@ -157,9 +166,37 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.section-title {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.name-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.list-images {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
 .page-footer {
-  background-color: #2e2f42;
+  background-color: var(--primary-text-color);
 }
 .footer-logo .logo-part {
-  color: #f4f4fd;
+  color: var(--background-3section);
+}
+.footer-paragraf {
+  line-height: 1.5;
+  color: var(--background-3section);
+  letter-spacing: 0.02em;
 }
