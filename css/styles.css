@@ -73,6 +73,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   color: var(--title-text-color);
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -97,7 +98,7 @@ ul {
 }
 .button {
   display: inline-block;
-  border: 1px solid var(--accent-color);
+  /* border: 1px solid var(--accent-color); */
   min-width: 169px;
   text-align: center;
   color: var(--primary-bg-color);
@@ -171,7 +172,7 @@ ul {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -184,6 +185,12 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.name-title {
+  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
 .list-images {
   line-height: 1.5;
   letter-spacing: 0.02em;
