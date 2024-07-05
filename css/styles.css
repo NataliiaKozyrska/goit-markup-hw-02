@@ -135,7 +135,7 @@ ul {
 .list-team {
   background-color: var(--primary-bg-color);
 }
-.title-list {
+.title {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 20px;
@@ -151,12 +151,12 @@ ul {
   background-color: var(--background-3section);
 }
 
-.feature-list .title {
+/* .feature-list .title {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
-}
+} */
 
 .feature-list .text {
   font-size: 16px;
