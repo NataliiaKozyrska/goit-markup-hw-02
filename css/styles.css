@@ -135,14 +135,14 @@ ul {
 .list-team {
   background-color: var(--primary-bg-color);
 }
-.title-name {
+.title-list {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.text {
+.ti .text {
   color: var(--title-text-color);
   letter-spacing: 0.02em;
 }
