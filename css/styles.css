@@ -97,7 +97,7 @@ ul {
   letter-spacing: 0.02em;
 }
 .button {
-  display: inline-block;
+  /* display: inline-block; */
   /* border: 1px solid var(--accent-color); */
   /* min-width: 169px; */
   text-align: center;
