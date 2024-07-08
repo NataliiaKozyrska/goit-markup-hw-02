@@ -46,7 +46,7 @@ a {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: var(--accent-color);
 }
 
@@ -107,7 +107,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  cursor: pointer;
+  /* cursor: pointer; */
   letter-spacing: 0.04em;
 }
 .button:focus {
@@ -166,7 +166,7 @@ ul {
 .images {
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .list-employees {
@@ -183,7 +183,7 @@ ul {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .name-list {
@@ -207,7 +207,7 @@ ul {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 .list-images {
   line-height: 1.5;
