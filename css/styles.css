@@ -97,9 +97,9 @@ ul {
   letter-spacing: 0.02em;
 }
 .button {
-  display: inline-block; */
+  display: inline-block;
   border: 1px solid var(--accent-color);
-   min-width: 169px;
+  min-width: 169px;
   /* text-align: center; */
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
@@ -181,12 +181,13 @@ ul {
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.02em;
-  /* text-transform: capitalize; */
+  text-transform: capitalize;
 }
 
 .name-list {
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -195,8 +196,8 @@ ul {
 
 .name-title {
   color: #2e2f42;
-  font-size: 36px;
-  line-height: 1.11;
+  font-size: 20px;
+  line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
@@ -207,7 +208,7 @@ ul {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  /* text-transform: capitalize; */
+  text-transform: capitalize;
 }
 .list-images {
   line-height: 1.5;
